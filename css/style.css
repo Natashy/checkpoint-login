@@ -185,11 +185,6 @@ h1, h2, h3, h4, h5,
 		padding: 0px;
 	}
 		
-	.form {
-		flex: 0 0 50%;
-		max-width: 170%;
-	}
-	
 	.form-control {
 		border-radius: 24px;
 		padding-left: 13px;
@@ -197,23 +192,6 @@ h1, h2, h3, h4, h5,
 		margin-left: -65px;
 	}
 
-	.form-control {
-		height: 50px;
-		color: rgba(255,255,255, 19) !important;
-		border: 1px solid transparent;
-		background: rgba(255,255,255,0.1);
-		border-radius: 40px;
-		padding-left: 20px;
-		padding-right: 20px;
-		display: flex;
-		width: 92%;
-		font-size: 1rem;
-		transition: border-color 0.80s ease-in-out, 
-		box-shadow 0.55s ease-in-out, 
-		-webkit-box-shadow 0.15s 
-		ease-in-out;
-	}
-	
 	.field-icon {
 		top: 50%;
 		left: 200px;
@@ -222,6 +200,14 @@ h1, h2, h3, h4, h5,
 	.btn {
 		width: 105%;
 		margin-left: -4px;
+	}
+
+	.button {
+		margin-left: 34px;
+	}
+
+	.checkbox-style {
+		margin-left: -51px;
 	}
 
 }
